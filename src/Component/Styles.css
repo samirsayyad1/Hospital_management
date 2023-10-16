@@ -1,0 +1,338 @@
+ @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+ body {
+   font-family: sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   font-family: "Lato", sans-serif;
+ }
+
+ .Dashbord,
+ .Doctors,
+ .Apoinment,
+ .Add_Doctor,
+ .Doctors_Profile,
+ .Login,
+ .patient_Profile
+
+ /* .All_Doctor { */
+   {
+   display: flex;
+   height: 90vh;
+   align-items: center;
+   justify-content: center;
+
+   position: absolute;
+   top: 80px;
+   /* new design */
+   width: 100%;
+   overflow: hidden;
+   z-index: -5;
+ }
+
+ /* Login and register page  */
+ .Login_Img {
+   background-image: url('https://images.unsplash.com/photo-1584466990376-09422a2b033a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fG1lZGljYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+   background-size: cover;
+   /* opacity: 0.9; */
+ }
+
+ .All_Doctors {
+   position: relative;
+   top: 120px;
+ }
+
+ .Formss {
+   text-align: center;
+   display: inline-block;
+   position: absolute;
+   width: 100%;
+   top: 50px;
+ }
+
+ .forms {
+   padding: 20px;
+   position: absolute;
+   right: 120px;
+   top: 100px;
+   border: 1px solid black;
+   border-radius: 20px;
+
+ }
+
+ .form-container {
+   /* max-width: 400px; */
+   width: 80%;
+   height: auto;
+   margin: auto;
+   box-shadow: 2px 2px 20px 5px rgb(52, 49, 49);
+ }
+
+ label {
+
+   margin-bottom: 10px;
+   margin: 20px;
+   font-weight: bold;
+
+ }
+
+ input,
+ select {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   margin: 20px;
+ }
+
+ button {
+   background-color: #4caf50;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background-color: #45a049;
+ }
+ /* All Doctor page is started */
+
+ .Profile_img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   display: inline-block;
+
+ }
+
+ .All_Doctors {
+   /* text-align:justify; */
+   text-align: center;
+ }
+
+ .All_Doctors img {
+   text-align: center;
+ }
+
+ .All_Doctors:hover {
+   box-shadow: 2px 1px 20px 5px black;
+ }
+
+ .Profiles {
+   width: 70%;
+   position: relative;
+   right: -280px;
+   overflow: hidden;
+   top: 50px;
+ }
+
+ .All_data {
+   position: relative;
+   z-index: -5;
+ }
+
+ .Profiles img {
+   border-radius: 50%;
+ }
+
+ .Profiles span {
+   font-size: 25px;
+   position: relative;
+   left: 150px;
+   text-align: center;
+ }
+
+ .Doctor_pro1 {
+   background-color: rgb(143, 232, 238);
+ }
+
+ .Login form {
+   padding: 50px 80px 50px 30px;
+   border: 2px solid black;
+   /* background-color: lightgreen; */
+   box-shadow: 2px 1px 20px 5px rgb(235, 229, 229);
+ }
+
+ .form_log {
+   box-shadow: 2px 1px 20px 5px rgb(199, 22, 22);
+ }
+
+ button {
+   margin-left: 40px;
+ }
+
+ /* Apoinment page startede */
+
+ .All_Apoinments {
+   position: absolute;
+   top: 215px;
+   /* right: 200px; */
+   text-align: center;
+   width: 100%;
+   z-index: -5;
+   background-color: red;
+   font-size: 20px;
+ }
+
+ /* Fixed table header */
+ thead {
+   position: sticky;
+   top: 0;
+   background-color: #343a40;
+   /* Set your desired background color */
+   color: white;
+   /* Set your desired text color */
+   z-index: 1;
+ }
+
+ /* Styling for table cells */
+ th,
+ td {
+   padding: 10px;
+   text-align: center;
+   border: 1px solid #f6c1c1;
+   /* Set your desired border color */
+ }
+
+ .datas {
+   color: rgb(224, 231, 237);
+   width: 100%;
+   background-color: rgb(57, 135, 219);
+
+   position: fixed;
+   text-align: center;
+   z-index: -1;
+ }
+
+ .tables {
+   background-color: red;
+   z-index: -10;
+ }
+
+ /* Dashbord page started */
+
+ .slider {
+   z-index: -2;
+ }
+
+ .sliders {
+   width: 100%;
+   height: 700px;
+   margin-top: 80px;
+ }
+ .slider h1{
+   position: relative;
+   padding: 20px;
+   top: -300px;
+   border: 2px solid black;
+   box-shadow: 5px 5px 50px 10px black;
+   font-size: 50px;
+}
+.slider h1{
+  text-shadow: 5px 5px 5px black;
+}
+
+ .Dash_bodys h5 {
+   font-weight: bold;
+   text-align: justify;
+   padding: 20px;
+ }
+
+ .Dash_bodys img {
+   padding: 20px;
+   height: 500px;
+ }
+
+ .Our_Services {
+   font-weight: bold;
+   margin: 50px 0px 50px 0px;
+   position: relative;
+   right: 20px;
+   text-align: center;
+
+ }
+
+ .section {
+   background-image: url('https://t3.ftcdn.net/jpg/00/92/34/56/240_F_92345619_pUlEznFdreTJy5amSBspNNtQT0sqhTwM.jpg');
+   background-attachment: fixed;
+   width: 100%;
+   height: 700px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* position:absolute; */
+   z-index: -2;
+
+ }
+
+ .section1 {
+   position: relative;
+   top: 200px;
+ }
+
+ .section1 img {
+   background-color: white;
+   display: inline-block;
+ }
+
+ .imgs {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   padding: 0px;
+   display: block;
+ }
+
+ .dinamic {
+   background-color: white;
+   height: auto;
+   padding: 30px;
+ }
+
+ .section {
+   position: relative;
+ }
+
+ footer {
+   background-color: rgb(40, 40, 87);
+   height: 400px;
+   width: 100%;
+   color: white;
+   overflow: hidden;
+   position: absolute;
+   z-index: -1;
+ }
+
+ footer ul {
+   /* font-weight: bold; */
+   position: relative;
+   top: 0px;
+ }
+
+ footer li {
+   margin: 20px;
+   font-size: 20px;
+   list-style-type: none;
+ }
+
+ .link {
+   text-decoration: none;
+   color: white;
+ }
+
+ footer .form {
+   position: relative;
+   top: 50px;
+ }
+
+ footer span {
+   font-size: 40px;
+   margin-top: 40px;
+
+ }
+
+ li span {
+   font-size: 20px;
+ }
